@@ -35,5 +35,5 @@ if (file_exists('books.xml')) {
     exit('Failed to open books.xml.');
 }
 //save changes to xml file
- file_put_contents('/home/cabox/workspace/phpProject/books.xml', $xml->asXML());
+ file_put_contents('/home/cabox/workspace/PHPXSL/books.xml', $xml->asXML());
 ?>
